@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="import_json_button" type="id"/>
+    <item name="start_quizz_button" type="id"/>
+    <item name="submit_button" type="id"/>
+    <item name="option_radio_group" type="id"/>
+    <item name="fragment_container" type="id"/>
+    <item name="question_text_view" type="id"/>
+</resources>
