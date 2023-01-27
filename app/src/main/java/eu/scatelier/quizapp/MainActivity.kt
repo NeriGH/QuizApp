@@ -13,7 +13,6 @@ import data.Question
 import data.QuestionDatabase
 import java.io.InputStreamReader
 import kotlinx.coroutines.*
-import kotlinx.coroutines.Dispatchers.IO
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -29,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             QuestionDatabase::class.java, "question_database"
         ).build()
 
-        val importButton: Button = findViewById(R.id.fileimport)
+        val importButton: Button = findViewById(R.id.ladder)
         importButton.setOnClickListener {
             openFilePicker()
         }
